@@ -123,21 +123,15 @@ function MainBody() {
           <div className="flex flex-col justify-start gap-5 py-5">
             <p className="italic text-xl font-semibold">
               Number of words :{" "}
-              <span className="font-bold text-[#DDDEE2]">
-                {state.wordCount}
-              </span>
+              <span className="font-bold ">{state.wordCount}</span>
             </p>
             <p className="italic text-xl font-semibold">
               Number of Characters :{" "}
-              <span className="font-bold text-[#DDDEE2]">
-                {state.charCount}
-              </span>
+              <span className="font-bold ">{state.charCount}</span>
             </p>
             <p className="italic text-xl font-semibold">
               Reading Time :{" "}
-              <span className="font-bold text-[#DDDEE2]">
-                {state.readingTime}
-              </span>
+              <span className="font-bold ">{state.readingTime}</span>
             </p>
           </div>
         </div>
